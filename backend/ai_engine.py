@@ -47,7 +47,7 @@ async def analyze_ingredients_ai(text: str):
 
     try:
         # Try a few common model names in order of preference
-        model_names = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro', 'models/gemini-1.5-flash']
+        model_names = ['gemini-2.5-flash']
         last_error = "No models tried"
         
         for name in model_names:
